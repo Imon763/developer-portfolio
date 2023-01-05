@@ -28,7 +28,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 
 .nav-title {
@@ -179,4 +179,10 @@ input{
 }
 .contact a{
     text-decoration: none;   
+}
+.copyright{
+    float: right;
+    font-size: 20px;
+    color: black;
+    font: italic;
 }
