@@ -4,12 +4,12 @@
 }
 
 .text-primary {
-    color: #fd6e0a;
+    color: #FD6E0A;
 }
 
 .btn-primary {
     color: #FFFFFF;
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 20px;
     border: 0;
     padding: 18px 35px;
@@ -17,22 +17,23 @@
     border-radius: 5px;
     background: #FD6E0A;
 }
-.header{
-    background-color: #FFF8F3;
-    background-image: url('images/header_bg.png'), url('images/developer.png');
+
+.header {
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, left;
 }
 
-/* header and navigation sytles */
+/* header and navigation styles */
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 
 .nav-title {
-    font-weight: 400px;
+    font-weight: 800;
     font-size: 45px;
 }
 
@@ -45,71 +46,78 @@ nav li {
     list-style: none;
     margin-left: 50px;
 }
-/* banner styles */
 
-.banner{
+/* banner styles */
+.banner {
     display: flex;
     align-items: center;
     margin: 0 200px;
 }
-.banner-title{
-    font-weight: 700px;
+
+.banner-title {
+    font-weight: 700;
     font-size: 85px;
 }
-.banner-sub-title{
-    font-weight: 600px;
+
+.banner-sub-title {
+    font-weight: 600;
     font-size: 45px;
     margin-bottom: 20px;
 }
-.banner-description{
+
+.banner-description {
     color: #757575;
     font-size: 18px;
     margin-bottom: 30px;
 }
-/* main seciton */
-main{
+
+/* main section */
+main {
     max-width: 1140px;
-    margin: auto;
+    margin: 0 auto;
 }
 section{
     margin-top: 130px;
 }
-.about{
-     margin-top: 130px;
-     text-align: center;
-     background: #FFF8F3;
-     border-radius: 10px;
-     padding: 130px 15px;
+/* about section styles */
+.about {
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
 }
-.section-title{
+
+.section-title {
     text-align: center;
     font-weight: 700;
     font-size: 35px;
     margin-bottom: 50px;
 }
-.section-description{
+
+.section-description {
     color: #757575;
     font-size: 18px;
     margin-bottom: 30px;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about .info-title{
+
+.about .info-title {
     font-size: 20px;
     color: #757575;
 }
-.info-description{
+
+.info-description {
     font-weight: 700;
     font-size: 20px;
     color: #474747;
 }
+
 /* What i do styles */
-.what-i-do{
-    margin-top: 30px;
-    text-align: center;
-}
+
 .skills-container{
     display: flex;
     gap: 24px;
@@ -129,7 +137,8 @@ section{
 .skill-description{
     color: #757575;
 }
-/* Resume Section */
+
+/* Resume Styles */
 .resume-content{
     display: flex;
     gap: 24px;
@@ -140,7 +149,7 @@ section{
 }
 .resume .title{
     font-weight: 700;
-    font-size: 30px;
+    font-size: 25px;
     color: #474747;
     margin-bottom: 10px;
 }
@@ -150,15 +159,16 @@ section{
     font-size: 20px;
     margin-bottom: 20px;
 }
-.resume .descriptioin{
+.resume .description{
     color: #757575;
 }
+
 .resume-button{
     margin-top: 50px;
     text-align: center;
 }
 
-/* Contact styles */
+/* contact styles */
 .contact{
     display: flex;
     gap: 100px;
@@ -168,15 +178,18 @@ section{
 .contact .section-title{
     text-align: left;
 }
-.contact input[type="text"],input[type="email"], textarea{
-    margin-bottom: 20px;
+
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
     border: 0;
     width: 100%;
-    padding: 18px 30px ;
+    padding: 18px 30px;
 }
+
 input{
     height: 64px;
 }
+
 .contact a{
-    text-decoration: none;   
+    text-decoration: none;
 }
